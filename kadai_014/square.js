@@ -1,4 +1,6 @@
 const squared = (number) => {
-  console.log(number * number);
+  return number * number;
 }
-squared(3);
+
+
+console.log(squared(10));
